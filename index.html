@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Valentina, sofia, camilo">
+  <meta name="keywords" content="Examen 6, Programación 4, BEM, Bootstrap">
+  <meta name="description" content="Ultras Store">
+
+  <title>Examen 6 </title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/estilos_generales.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <header class="top-bar container border-bottom py-2">
+    <div class="row align-items-center text-center text-md-start">
+
+      <div class="col-12 col-md-4">
+        <p class="top-bar__text">Let's talk! <strong>+57 444 11 00 35</strong></p>
+      </div>
+
+      <div class="col-12 col-md-4 text-center">
+        <p class="top-bar__text">Free shipping on a purchase value of</p>
+        <p class="top-bar__price">$200</p>
+      </div>
+
+      <div class="col-12 col-md-4 text-md-end">
+        <div class="top-bar__icons">
+          <i class="bi bi-person"></i>
+          <i class="bi bi-cart"></i>
+          <i class="bi bi-heart"></i>
+          <i class="bi bi-search"></i>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-white py-3 border-bottom">
+    <div class="container">
+
+      <!-- LOGO -->
+      <div>
+        <h2 class="nav__logo">Ultras.</h2>
+        <span class="nav__sub">Casual Wear Store</span>
+      </div>
+
+      <!-- BOTÓN MOBILE -->
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- MENÚ -->
+      <div class="collapse navbar-collapse justify-content-center" id="menu">
+        <ul class="navbar-nav nav__menu">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              Home <i class="bi bi-chevron-down"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Shop <i class="bi bi-chevron-down"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Pages <i class="bi bi-chevron-down"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Blog <i class="bi bi-chevron-down"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <main class="hero container">
+    <div class="hero__box position-relative">
+
+      <!-- FLECHAS -->
+      <div class="hero__arrow hero__arrow--left">
+        <i class="bi bi-chevron-left"></i>
+      </div>
+
+      <div class="hero__arrow hero__arrow--right">
+        <i class="bi bi-chevron-right"></i>
+      </div>
+
+      <div class="row align-items-center g-0">
+
+        <!-- TEXTO -->
+        <div class="col-12 col-md-6 p-5 hero__content">
+          <h1 class="hero__title">Summer Collection</h1>
+
+          <p class="hero__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed eu feugiat amet, libero ipsum enim pharetra hac.
+          </p>
+        </div>
+
+        <!-- IMAGEN -->
+        <div class="col-12 col-md-6 hero__image">
+          <img src="imagenes/imagen6.jpg" alt="modelo">
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

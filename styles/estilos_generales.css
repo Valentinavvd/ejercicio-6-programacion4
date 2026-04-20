@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* TOP BAR */
+.top-bar__text {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+.top-bar__price {
+  font-weight: bold;
+  margin: 0;
+}
+
+.top-bar__icons i {
+  margin-left: 15px;
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.top-bar__icons i:hover {
+  color: #000;
+}
+
+/* NAV */
+.nav__logo {
+  font-weight: 800;
+  font-size: 28px;
+  margin: 0;
+}
+
+.nav__sub {
+  font-size: 13px;
+  color: #888;
+}
+
+.nav__menu .nav-link {
+  margin: 0 12px;
+  font-weight: 500;
+  color: #000;
+}
+
+.nav__menu .nav-link i {
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+/* HERO */
+.hero {
+  margin-top: 40px;
+}
+
+.hero__box {
+  background-color: #f3f3f3;
+  padding: 40px;
+  position: relative;
+}
+
+.hero__title {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.hero__description {
+  color: #777;
+  margin-top: 15px;
+  max-width: 480px;
+}
+
+.hero__image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* FLECHAS */
+.hero__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero__arrow:hover {
+  background: black;
+  color: white;
+}
+
+.hero__arrow--left {
+  left: -20px;
+}
+
+.hero__arrow--right {
+  right: -20px;
+}
